@@ -9,7 +9,7 @@ const db = require("./config/keys").mongoURI;
 const bodyParser = require("body-parser");
 
 //引入users
-const users = require('./routers/api/User');
+const users = require('./api/User');
 
 // 2.创建app对象
 const app = express();

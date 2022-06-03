@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const User = require("../../module/users");
+const User = require("../module/users");
 const bcrypt = require("bcrypt-nodejs")
 // 测试路由功能
 router.get("/test", (req, res) => {

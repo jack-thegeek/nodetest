@@ -15,7 +15,7 @@ const users = require('./routers/api/User');
 const app = express();
 
 // 3.设置端口
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3333;
 
 // 4.设置监听
 app.listen(port, () => {

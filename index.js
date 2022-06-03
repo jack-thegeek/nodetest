@@ -1,6 +1,5 @@
 // 1.引入express
 const express = require("express");
-
 // 引入mongoose
 const mongoose = require("mongoose");
 // 引入刚刚创建的数据库
@@ -39,3 +38,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 // 使用中间件
 app.use("/api/users", users);
+
+// index.js
+module.exports = app

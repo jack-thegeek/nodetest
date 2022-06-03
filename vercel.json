@@ -18,8 +18,8 @@
   }],
   "rewrites": [
     {
-      "source": "/", // 重定向配置 访问/根路径重定向到/api/query-all-users
-      "destination": "/api/User"
+      "source": "/",
+      "destination": "/api/json"
     }
   ]
 }
